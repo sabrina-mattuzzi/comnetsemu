@@ -129,8 +129,7 @@ def run_topo():
     info( r2.cmd( 'route' ) )
 
     net.pingAll()
-    #net.pingAllFull()
-    CLI( net )
+    #CLI( net )
 
     info("*** Stopping network")
     net.stop()
