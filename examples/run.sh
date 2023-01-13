@@ -27,6 +27,7 @@ run_examples() {
     echo "*** Running basic functional examples of the emulator."
     $PYTHON ./dockerhost.py
     $PYTHON ./dockerindocker.py
+    $PYTHON ./staticRouter.py
     echo "- Run ./dockerhost_manage_appcontainer.py"
     $PYTHON ./dockerhost_manage_appcontainer.py
 

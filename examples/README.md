@@ -16,6 +16,10 @@ This example demonstrates how to use ComNetsEmu's API to deploy Docker container
 Docker-in-Docker(dind) is used by ComNetsEmu as an lightweight emulation for nested-Virtualization.
 The Dockerhost with internal Docker containers deployed is used to **mimic** an actual physical host that runs Docker containers.
 
+#### dockerhost.py
+
+This example demonstrates how to build and use a static router on ComNetsEmu.
+
 #### Echo Server as a Service (echo_server)
 
 This basic example demonstrates how to build and deploy a containerized service (a simple echo server) as an internal
