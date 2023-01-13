@@ -19,7 +19,7 @@ from mininet.link import TCLink
 from comnetsemu.net import Containernet
 from comnetsemu.node import DockerHost
 
-#from mininet.cli import CLI
+from mininet.cli import CLI
 
 PING_COUNT = 15
 
@@ -130,7 +130,7 @@ def run_topo():
 
     net.pingAll()
     #net.pingAllFull()
-    #CLI( net )
+    CLI( net )
 
     info("*** Stopping network")
     net.stop()
